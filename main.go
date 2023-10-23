@@ -1,13 +1,13 @@
 package main
 
 import (
-	"blockchain/src"
+	"blockchain/internal"
 	"fmt"
 	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
-	blockchain := src.NewBlockchain()
+	blockchain := internal.NewBlockchain()
 
 	app := fiber.New()
 
